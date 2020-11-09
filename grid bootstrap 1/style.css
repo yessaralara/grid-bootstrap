@@ -1,0 +1,32 @@
+
+ div[class*=col] { 
+     border: 1px solid white;
+
+ }
+.verde {
+    background-color: green;
+    height: 25px;
+}
+
+.rojo {
+    background-color: red;
+  
+}
+
+.violeta {
+    background-color: violet;
+    height: 25px;
+}
+
+.naranja {
+    background-color:orange;
+    height: 150px;
+}
+
+.azul {
+    background-color: blue;
+    height: 75px;
+}
+#fila3 div {
+    height: 15px;
+}

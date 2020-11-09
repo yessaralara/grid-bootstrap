@@ -1,0 +1,118 @@
+@media (max-width: 575px) {
+    .header {  
+    background-color: orange;
+    text-align: center;
+    }
+    #numero1{
+        background-color: red;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100px;;
+    }
+    #numero2{
+        background-color: skyblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;;
+    }
+    #numero3 {
+        background-color: red;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100px;;
+    }
+    #footer1, #footer2 {
+        text-align: center;
+    }  
+}
+
+@media (min-width: 576px) {
+    .header {  
+    background-color: skyblue;
+    text-align: left;
+    }
+    #numero1{
+        background-color: red;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 150px;
+    }
+    #numero2{
+        background-color: red;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 150px;
+    }
+    #numero3 {  
+        background-color: green;
+        text-align: center;
+        height: 100px;
+        }
+    #footer1, #footer2 {
+        text-align: center;
+    }  
+}
+
+@media (min-width: 768px) {
+    .header {  
+    background-color: green;
+    text-align: left;
+    }
+    #numero1{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 300px;
+    }
+    #numero2{
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        height: 300px;
+    }
+    #numero3 {
+        background-color: red;
+        height: 300px;
+    }
+    #footer1 {
+        text-align: right;
+    }
+    #footer2 {
+        text-align: left;
+    }
+}
+
+
+div[class*=col] { 
+    border: 3px solid white;
+}
+
+.numero {
+    font-size: 50px;
+}
+
+body {
+   font-size: 20px;
+   font-weight: bold;
+   color: black;
+}
+
+.verde {
+   background-color: green;
+   height: 35px;
+}
+
+
+.amarillo {
+    background-color: yellow;
+    height: 35px;
+ }
+
+

@@ -1,0 +1,42 @@
+
+ div[class*=col] { 
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+   font-size: 10px;
+   font-weight: bold;
+   color: white;
+}
+
+.verde {
+   background-color: green;
+   height: 25px;
+}
+
+.gris {
+   background-color:gray;
+   height: 100px;
+}
+
+.naranja {
+   background-color:orange;
+   height: 150px;
+}
+
+.azul {
+   background-color: blue;
+   height: 100px;
+}
+
+.azul-claro {
+   background-color: skyblue;
+   height: 40px;
+}
+
+#fila6 div {
+   height: 15px;
+}
